@@ -93,7 +93,7 @@ Tongbh, Myron & Fly Dragon
 
 ## 系统实现思路
 
-由于篇幅过长，请移步至本项目中的doc文件夹：[]()
+由于篇幅过长，请移步至本项目中的doc文件夹：[传送门](https://github.com/tbh111/DUT0BUG-RM-CV-2021/tree/main/doc)
 
 ## 写在后面
 
