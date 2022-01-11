@@ -16,11 +16,12 @@ unsigned long GetTickCount();
 
 int main(int argc, char *argv[])
 {
-//    qInstallMessageHandler(logger);
+    qInstallMessageHandler(logger); // 全局日志功能
     QApplication a(argc, argv);
     qDebug() << "STARTING MAIN CLIENT...";
-    TaskManager manager(common_utils::SHOW_ON);
+    TaskManager manager(common_utils::SHOW_ON); // 线程调度
 
+    // 从文件读取参数，未使用
     //Config config;
 
     //config.InitJsonFile();

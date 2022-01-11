@@ -10,10 +10,10 @@ void ProcessThread::run()
 {
     qDebug() << "process thread id: " << currentThreadId();
     ArmorDetector armor_detector;
-//    EnergyDetector energy_detector;
+    EnergyDetector energy_detector; //未测试
     AngleSolver pnp;
     int sample_count = 0;
-//    int armor_type;
+    int armor_type;
     while(true)
     {
         stop_mutex.lock();
@@ -51,7 +51,7 @@ void ProcessThread::run()
                     yaw_tx = result[0];
                     pitch_tx = result[1];
                     cmd_tx = common_utils::SHOOT_AUTO;
-//                    packTx();
+                    packTx();
                     result.clear();
 //                    std::cout << "color: " << color << " target: " << process_target << std::endl;
 //                    std::cout << "energy_mode: " << energy_mode << "video_switch: " << video_switch << std::endl;
@@ -63,23 +63,23 @@ void ProcessThread::run()
                     yaw_tx = 0.0;
                     pitch_tx = 0.0;
                     cmd_tx = common_utils::SHOOT_DISABLED;
-//                    packTx();
+                    packTx();
                 }
             }
             else if(process_target == common_utils::TARGET_ENERGY)
             {
-//                EnergyBox target;
-//                energy_detector.run(src_img, dst_img, target, color);
-//                if(target.isValid)
-//                {
-//                    std::vector<double> result = pnp.p4pSolution(target.armor_rect, target.armor_type);
-//                    detect_flag = common_utils::DETECT_YES;
-//                    yaw_tx = result[0];
-//                    pitch_tx = result[1];
-//                    cmd_tx = common_utils::SHOOT_SINGLE;
-//                    packTx();
-//                    result.clear();
-//                }
+               EnergyBox target;
+               energy_detector.run(src_img, dst_img, target, color);
+               if(target.isValid)
+               {
+                   std::vector<double> result = pnp.p4pSolution(target.armor_rect, target.armor_type);
+                   detect_flag = common_utils::DETECT_YES;
+                   yaw_tx = result[0];
+                   pitch_tx = result[1];
+                   cmd_tx = common_utils::SHOOT_SINGLE;
+                   packTx();
+                   result.clear();
+               }
             }
             else
             {
