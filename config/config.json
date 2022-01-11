@@ -1,0 +1,37 @@
+{
+    "armor": {
+        "blue_binary_threshold": 200,
+        "red_binary_threshold": 150
+    },
+    "energy": {
+        "energy_armor_area_max_threshold": 5000,
+        "energy_armor_area_min_threshold": 3500,
+        "hsv_blue_hmax": 150,
+        "hsv_blue_hmin": 80,
+        "hsv_blue_smax": 255,
+        "hsv_blue_smin": 40,
+        "hsv_blue_vmax": 255,
+        "hsv_blue_vmin": 100,
+        "hsv_red_hmax": 180,
+        "hsv_red_hmax_2": 40,
+        "hsv_red_hmin": 250,
+        "hsv_red_hmin_2": 0,
+        "hsv_red_smax": 255,
+        "hsv_red_smin": 40,
+        "hsv_red_vmax": 225,
+        "hsv_red_vmin": 100
+    },
+    "mode": {
+        "function": "full",
+        "source": "video"
+    },
+    "paths": {
+        "camera_param_path": "../config/camera.xml",
+        "energy_svm_path": "../config/SVM_MODEL.xml",
+        "test_video_path": "../config/1.avi"
+    },
+    "serial": {
+        "baud_rate": 115200,
+        "port": "/dev/ttyTHS2"
+    }
+}

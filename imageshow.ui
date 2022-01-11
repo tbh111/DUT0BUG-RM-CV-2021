@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ImageShow</class>
+ <widget class="QWidget" name="ImageShow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>887</width>
+    <height>530</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ImageShow</string>
+  </property>
+  <widget class="QLabel" name="image">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>640</width>
+     <height>480</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="closeButton">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>500</y>
+     <width>80</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fpsLabel">
+   <property name="geometry">
+    <rect>
+     <x>406</x>
+     <y>500</y>
+     <width>111</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>FPS:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>40</y>
+     <width>57</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Rx:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>60</y>
+     <width>57</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>color</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="color_rx">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>60</y>
+     <width>57</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>280</y>
+     <width>57</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tx:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="target_rx">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>80</y>
+     <width>57</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>80</y>
+     <width>57</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>target</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="video_rx">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>120</y>
+     <width>57</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>120</y>
+     <width>57</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>video</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="energy_rx">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>100</y>
+     <width>57</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>100</y>
+     <width>57</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>energy</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pitch_tx">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>320</y>
+     <width>57</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>320</y>
+     <width>57</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>pitch</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="yaw_tx">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>300</y>
+     <width>57</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>300</y>
+     <width>57</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>yaw</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="state_tx">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>340</y>
+     <width>57</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>340</y>
+     <width>57</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>state</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="cmd_tx">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>360</y>
+     <width>57</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_18">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>360</y>
+     <width>57</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>cmd</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pitch_rx">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>140</y>
+     <width>57</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_20">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>140</y>
+     <width>57</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>pitch</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_21">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>160</y>
+     <width>57</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>speed</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="speed_rx">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>160</y>
+     <width>57</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

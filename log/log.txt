@@ -1,0 +1,94 @@
+[2021-06-16 00:01:12 Wed][Debug] File:../main.cpp Line:17  STARTING MAIN CLIENT...
+[2021-06-16 00:01:12 Wed][Debug] File:../src/config.cpp Line:12  config file open success
+[2021-06-16 00:01:12 Wed][Debug] File:../src/config.cpp Line:78  read config file success
+[2021-06-16 00:01:12 Wed][Debug] File:../src/config.cpp Line:85  read:  "/dev/ttyTHS2"
+[2021-06-16 00:01:12 Wed][Debug] File:../main.cpp Line:23  "/dev/ttyTHS2"
+[2021-06-16 00:01:12 Wed][Debug] File:../src/config.cpp Line:105  err:  5
+[2021-06-16 00:01:12 Wed][Debug] File:../main.cpp Line:25  ""
+[2021-06-16 00:02:29 Wed][Debug] File:../main.cpp Line:17  STARTING MAIN CLIENT...
+[2021-06-16 00:02:29 Wed][Debug] File:../src/config.cpp Line:80  config file open success
+[2021-06-16 00:02:29 Wed][Debug] File:../src/config.cpp Line:87  read config file success
+[2021-06-16 00:02:29 Wed][Debug] File:../src/config.cpp Line:94  read:  "/dev/ttyTHS2"
+[2021-06-16 00:02:29 Wed][Debug] File:../main.cpp Line:23  "/dev/ttyTHS2"
+[2021-06-16 00:02:29 Wed][Warning] File: Line:0  QFile::open: File (../config/config.json) already open
+[2021-06-16 00:02:29 Wed][Debug] File:../src/config.cpp Line:76  config file open error
+[2021-06-16 00:02:29 Wed][Debug] File:../src/config.cpp Line:114  err:  5
+[2021-06-16 00:02:29 Wed][Debug] File:../main.cpp Line:25  ""
+[2021-06-16 00:03:59 Wed][Debug] File:../main.cpp Line:17  STARTING MAIN CLIENT...
+[2021-06-16 00:03:59 Wed][Debug] File:../src/config.cpp Line:80  config file open success
+[2021-06-16 00:03:59 Wed][Debug] File:../src/config.cpp Line:87  read config file success
+[2021-06-16 00:03:59 Wed][Debug] File:../src/config.cpp Line:94  read:  "/dev/ttyTHS2"
+[2021-06-16 00:03:59 Wed][Debug] File:../main.cpp Line:23  "/dev/ttyTHS2"
+[2021-06-16 00:03:59 Wed][Debug] File:../src/config.cpp Line:80  config file open success
+[2021-06-16 00:03:59 Wed][Debug] File:../src/config.cpp Line:87  read config file success
+[2021-06-16 00:03:59 Wed][Debug] File:../src/config.cpp Line:100  read:  5000
+[2021-06-16 00:03:59 Wed][Debug] File:../main.cpp Line:25  "5000"
+[2021-06-16 00:12:51 Wed][Debug] File:../main.cpp Line:19  STARTING MAIN CLIENT...
+[2021-06-16 00:12:51 Wed][Debug] File:../src/config.cpp Line:80  config file open success
+[2021-06-16 00:12:51 Wed][Debug] File:../src/config.cpp Line:87  read config file success
+[2021-06-16 00:12:51 Wed][Debug] File:../src/config.cpp Line:94  read:  "/dev/ttyTHS2"
+[2021-06-16 00:12:51 Wed][Debug] File:../main.cpp Line:26  "/dev/ttyTHS2"
+[2021-06-16 00:12:51 Wed][Debug] File:../src/config.cpp Line:80  config file open success
+[2021-06-16 00:12:51 Wed][Debug] File:../src/config.cpp Line:87  read config file success
+[2021-06-16 00:12:51 Wed][Debug] File:../src/config.cpp Line:100  read:  5000
+[2021-06-16 00:12:51 Wed][Debug] File:../main.cpp Line:28  "5000"
+[2021-06-16 00:12:51 Wed][Debug] File:../main.cpp Line:30  0
+[2021-06-16 00:13:14 Wed][Debug] File:../main.cpp Line:19  STARTING MAIN CLIENT...
+[2021-06-16 00:13:14 Wed][Debug] File:../src/config.cpp Line:80  config file open success
+[2021-06-16 00:13:14 Wed][Debug] File:../src/config.cpp Line:87  read config file success
+[2021-06-16 00:13:14 Wed][Debug] File:../src/config.cpp Line:94  read:  "/dev/ttyTHS2"
+[2021-06-16 00:13:14 Wed][Debug] File:../main.cpp Line:26  "/dev/ttyTHS2"
+[2021-06-16 00:13:14 Wed][Debug] File:../src/config.cpp Line:80  config file open success
+[2021-06-16 00:13:14 Wed][Debug] File:../src/config.cpp Line:87  read config file success
+[2021-06-16 00:13:14 Wed][Debug] File:../src/config.cpp Line:100  read:  5000
+[2021-06-16 00:13:14 Wed][Debug] File:../main.cpp Line:28  "5000"
+[2021-06-16 00:13:14 Wed][Debug] File:../main.cpp Line:30  6341673
+[2021-06-16 00:13:30 Wed][Debug] File:../main.cpp Line:19  STARTING MAIN CLIENT...
+[2021-06-16 00:13:30 Wed][Debug] File:../src/config.cpp Line:80  config file open success
+[2021-06-16 00:13:30 Wed][Debug] File:../src/config.cpp Line:87  read config file success
+[2021-06-16 00:13:30 Wed][Debug] File:../src/config.cpp Line:94  read:  "/dev/ttyTHS2"
+[2021-06-16 00:13:30 Wed][Debug] File:../main.cpp Line:26  "/dev/ttyTHS2"
+[2021-06-16 00:13:30 Wed][Debug] File:../src/config.cpp Line:80  config file open success
+[2021-06-16 00:13:30 Wed][Debug] File:../src/config.cpp Line:87  read config file success
+[2021-06-16 00:13:30 Wed][Debug] File:../src/config.cpp Line:100  read:  5000
+[2021-06-16 00:13:30 Wed][Debug] File:../main.cpp Line:28  "5000"
+[2021-06-16 00:13:30 Wed][Debug] File:../main.cpp Line:30  6358360   6358361
+[2021-06-16 00:21:30 Wed][Debug] File:../main.cpp Line:19  STARTING MAIN CLIENT...
+[2021-06-16 00:21:30 Wed][Debug] File:../src/config.cpp Line:21  config file open success
+[2021-06-16 00:21:30 Wed][Debug] File:../src/config.cpp Line:75  initialize config file success
+[2021-06-16 00:37:26 Wed][Debug] File:../main.cpp Line:19  STARTING MAIN CLIENT...
+[2021-06-16 00:37:26 Wed][Debug] File:../src/config.cpp Line:21  config file open success
+[2021-06-16 00:37:26 Wed][Debug] File:../src/config.cpp Line:75  initialize config file success
+[2021-06-16 00:37:47 Wed][Debug] File:../main.cpp Line:19  STARTING MAIN CLIENT...
+[2021-06-16 00:37:47 Wed][Debug] File:../src/config.cpp Line:21  config file open success
+[2021-06-16 00:37:47 Wed][Debug] File:../src/config.cpp Line:75  initialize config file success
+[2021-06-16 00:44:34 Wed][Debug] File:../main.cpp Line:19  STARTING MAIN CLIENT...
+[2021-06-16 00:44:34 Wed][Debug] File:../src/config.cpp Line:21  config file open success
+[2021-06-16 00:44:34 Wed][Debug] File:../src/config.cpp Line:75  initialize config file success
+[2021-06-16 00:46:12 Wed][Debug] File:../main.cpp Line:19  STARTING MAIN CLIENT...
+[2021-06-16 00:46:12 Wed][Debug] File:../src/config.cpp Line:21  config file open success
+[2021-06-16 00:46:12 Wed][Debug] File:../src/config.cpp Line:75  initialize config file success
+[2021-06-16 00:46:22 Wed][Debug] File:../main.cpp Line:19  STARTING MAIN CLIENT...
+[2021-06-16 00:46:22 Wed][Debug] File:../src/config.cpp Line:21  config file open success
+[2021-06-16 00:46:22 Wed][Debug] File:../src/config.cpp Line:75  initialize config file success
+[2021-06-28 16:24:44 Mon][Debug] File:../main.cpp Line:19  STARTING MAIN CLIENT...
+[2021-06-28 16:24:44 Mon][Debug] File:../src/config.cpp Line:21  config file open success
+[2021-06-28 16:24:44 Mon][Debug] File:../src/config.cpp Line:75  initialize config file success
+[2021-06-28 16:30:18 Mon][Debug] File:../main.cpp Line:19  STARTING MAIN CLIENT...
+[2021-06-28 16:30:18 Mon][Debug] File:../src/config.cpp Line:21  config file open success
+[2021-06-28 16:30:18 Mon][Debug] File:../src/config.cpp Line:75  initialize config file success
+[2021-06-29 09:34:45 Tue][Debug] File:../main.cpp Line:20  STARTING MAIN CLIENT...
+[2021-06-29 09:34:45 Tue][Debug] File:../src/config.cpp Line:21  config file open success
+[2021-06-29 09:34:45 Tue][Debug] File:../src/config.cpp Line:75  initialize config file success
+[2021-06-29 13:41:06 Tue][Debug] File:../main.cpp Line:23  STARTING MAIN CLIENT...
+[2021-06-29 13:41:06 Tue][Debug] File:../src/can.cpp Line:21  find can device success
+[2021-06-29 13:41:06 Tue][Warning] File: Line:0  Cannot apply parameter: 4 with value: 500000.
+[2021-06-29 13:41:06 Tue][Debug] File:../src/can.cpp Line:36  connect can bus success
+[2021-06-29 13:48:41 Tue][Debug] File:../main.cpp Line:23  STARTING MAIN CLIENT...
+[2021-06-29 13:48:41 Tue][Debug] File:../src/can.cpp Line:21  find can device success
+[2021-06-29 13:48:41 Tue][Warning] File: Line:0  Cannot apply parameter: 4 with value: 500000.
+[2021-06-29 13:48:41 Tue][Debug] File:../src/can.cpp Line:36  connect can bus success
+[2021-06-29 13:48:47 Tue][Debug] File:../main.cpp Line:23  STARTING MAIN CLIENT...
+[2021-06-29 13:48:47 Tue][Debug] File:../src/can.cpp Line:21  find can device success
+[2021-06-29 13:48:47 Tue][Warning] File: Line:0  Cannot apply parameter: 4 with value: 500000.
+[2021-06-29 13:48:47 Tue][Debug] File:../src/can.cpp Line:36  connect can bus success
