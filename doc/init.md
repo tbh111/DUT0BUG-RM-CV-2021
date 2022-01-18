@@ -98,7 +98,7 @@ reboot
 
 #### 5.配置工业相机
 
-使用的工业相机型号为MindVision MV-SUA33GC，linux SDK下载地址：[](http://mindvision.com.cn/rjxz/list_12.aspx?lcid=138)
+使用的工业相机型号为MindVision MV-SUA33GC，linux SDK下载地址：[http://mindvision.com.cn/rjxz/list_12.aspx?lcid=138](http://mindvision.com.cn/rjxz/list_12.aspx?lcid=138)
 
 安装：
 
